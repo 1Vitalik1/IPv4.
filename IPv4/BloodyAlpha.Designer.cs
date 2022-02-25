@@ -96,6 +96,9 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(512, 46);
             this.panel2.TabIndex = 6;
+            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             // 
             // label4
             // 
@@ -109,6 +112,9 @@
             this.label4.Size = new System.Drawing.Size(172, 38);
             this.label4.TabIndex = 2;
             this.label4.Text = "BloodyAlpha";
+            this.label4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.label4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.label4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             // 
             // label5
             // 
@@ -121,6 +127,9 @@
             this.label5.Size = new System.Drawing.Size(192, 38);
             this.label5.TabIndex = 0;
             this.label5.Text = "PortCheck By";
+            this.label5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.label5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.label5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             // 
             // pictureBox1
             // 
